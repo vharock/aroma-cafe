@@ -13,20 +13,52 @@ alguns clientes expressaram preocupações sobre os preços dos produtos e a con
 
 
 
-Pergunta de negócio: “Como está a saúde da rede de cafeterias, no
+### Pergunta de negócio: “Como está a saúde da rede de cafeterias, no
 geral? Elas estão indo bem ou mal?”
+1. Visão Faturamento pelo tempo:
+a. Gráfico de linha mostrando o faturamento por dia
+b. Gráfico de barras para mostrar o faturamento por mês
 
-Pergunta de negócio: “Existe algum motivo do porque a rede está indo
+2. Visão contribuição de produtos:
+a. Gráfico de barras mostrando o faturamento por categoria de
+produto
+b. Gráfico de barra horizontal para mostrar o faturamento por
+tipo de produto.
+
+3. Visão contribuição de lojas:
+a. Gráfico de pizza mostrando a participação das lojas no
+faturamento.
+
+4. Visão período da semana:
+a. Gráfico de barras verticais para mostrar o faturamento por dia
+da semana.
+
+
+### Pergunta de negócio: “Existe algum motivo do porque a rede está indo
 bem ou mal? Você poderia me explicar o que está causando uma boa ou
 má saúde do negócio?"
+1. Visão Faturamento por:
+a. Crescimento do número de itens
+b. Crescimento do preço unitários
+c. Crescimento das lojas
+2. Visão contribuição de produtos
 
-Pergunta de negócio: “Você poderia prever o faturamento da rede de
+
+### Pergunta de negócio: “Você poderia prever o faturamento da rede de
 cafeteria nos próximos 30 dias? ( Mês de Julho de 2023 )”
+1. Usar o algoritmo de previsão da família das séries temporais
+a. Calcular a Sazonalidade
+b. Calcular a Tendência.
+c. Multiplica a sazonalidade pela tendência
+d. Calcular o erro percentual e o erro médio
 
-Pergunta de negócio: “Quais são as suas recomendações para alavancar
+
+### Pergunta de negócio: “Quais são as suas recomendações para alavancar
 ainda mais o negócio, caso ele esteja indo bem ou reverter uma situação
 ruim, caso ele esteja indo mal?”
-
+1. Criar as características que podem influenciar no faturamento.
+2. Treinar o algoritmo de Regressão Linear.
+3. Interpretar os coeficientes
 
 
 
